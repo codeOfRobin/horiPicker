@@ -14,6 +14,7 @@
 		7ACE374E1A802C40002FAF3A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7ACE374D1A802C40002FAF3A /* Images.xcassets */; };
 		7ACE37511A802C40002FAF3A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7ACE374F1A802C40002FAF3A /* LaunchScreen.xib */; };
 		7ACE375D1A802C40002FAF3A /* horiPickerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ACE375C1A802C40002FAF3A /* horiPickerTests.m */; };
+		7ACE37691A802C90002FAF3A /* V8HorizontalPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ACE37671A802C90002FAF3A /* V8HorizontalPickerView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,9 @@
 		7ACE37561A802C40002FAF3A /* horiPickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = horiPickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7ACE375B1A802C40002FAF3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7ACE375C1A802C40002FAF3A /* horiPickerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = horiPickerTests.m; sourceTree = "<group>"; };
+		7ACE37661A802C90002FAF3A /* V8HorizontalPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = V8HorizontalPickerView.h; sourceTree = "<group>"; };
+		7ACE37671A802C90002FAF3A /* V8HorizontalPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = V8HorizontalPickerView.m; sourceTree = "<group>"; };
+		7ACE37681A802C90002FAF3A /* V8HorizontalPickerViewProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = V8HorizontalPickerViewProtocol.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +85,9 @@
 		7ACE373F1A802C40002FAF3A /* horiPicker */ = {
 			isa = PBXGroup;
 			children = (
+				7ACE37661A802C90002FAF3A /* V8HorizontalPickerView.h */,
+				7ACE37671A802C90002FAF3A /* V8HorizontalPickerView.m */,
+				7ACE37681A802C90002FAF3A /* V8HorizontalPickerViewProtocol.h */,
 				7ACE37441A802C40002FAF3A /* AppDelegate.h */,
 				7ACE37451A802C40002FAF3A /* AppDelegate.m */,
 				7ACE37471A802C40002FAF3A /* ViewController.h */,
@@ -219,6 +226,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7ACE37691A802C90002FAF3A /* V8HorizontalPickerView.m in Sources */,
 				7ACE37491A802C40002FAF3A /* ViewController.m in Sources */,
 				7ACE37461A802C40002FAF3A /* AppDelegate.m in Sources */,
 				7ACE37431A802C40002FAF3A /* main.m in Sources */,
